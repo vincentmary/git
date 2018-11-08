@@ -1,7 +1,7 @@
 [alias]
 
     # log aliases
-    l='log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short'
+    l='log --oneline --decorate --graph'
     ls="hist | grep"
  
     # checkout aliases
